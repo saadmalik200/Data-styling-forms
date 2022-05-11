@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Styling Forms</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <figure>
+        <img src="./images/logo.png" alt="" />
+      </figure>
+    </header>
+    <main>
+      <section class="top">
+        <h1>The Best Craft Beer in Spain!</h1>
+        <p>
+          Bienvenido, amigos! We are complete fictional location. But that does
+          not mean we can't imagine the best beer in Spain!
+        </p>
+      </section>
+      <section class="bottom">
+        <h2>Make a reservation</h2>
+        <p>Get your spot before somebody else does!</p>
+        <form action="">
+          <div>
+            <label for="name">YOUR NAME</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="John B. Goode"
+            />
+          </div>
+
+          <div>
+            <label for="email">YOUR EMAIL</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="John B. Goode"
+            />
+          </div>
+
+          <div>
+            <label for="date">RESERVATION TIME</label>
+            <input type="datetime-local" name="date" id="date" />
+          </div>
+
+          <div>
+            <button>Reserve Now</button>
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
