@@ -1,5 +1,9 @@
 # Basic Data Exercises
 
+## Link
+
+- Live Site URL: [https://saadmalik200.github.io/Data-styling-forms/](https://saadmalik200.github.io/Data-styling-forms/)
+
 ## Styling Forms
 
 **Instructions**:
